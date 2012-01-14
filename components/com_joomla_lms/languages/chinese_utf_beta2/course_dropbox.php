@@ -1,0 +1,41 @@
+<?php
+/**
+* /languages/english/course_dropbox.php
+* Joomla LMS Component
+* * * ElearningForce DK
+**/
+
+// no direct access
+defined( '_VALID_MOS' ) or die( 'Restricted access' );
+
+$JLMS_LANGUAGE['_JLMS_DROP_ADD_ITEM'] = '增加项目到下拉选单';
+$JLMS_LANGUAGE['_JLMS_DROP_BTN_ADD_ITEM'] = '增加项目';
+$JLMS_LANGUAGE['_JLMS_DROP_SELECT_ITEM'] = '请选择一个项目';
+$JLMS_LANGUAGE['_JLMS_DROP_TITLE'] = '课程下拉选单';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_NAME'] = '姓名';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_FROM'] = '由';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_TO'] = '至';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_CORRECTED'] = '已更正';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_DESCR'] = '更正';
+$JLMS_LANGUAGE['_JLMS_DROP_STATUS_READ'] = '已阅读';
+$JLMS_LANGUAGE['_JLMS_DROP_STATUS_UNREAD'] = '未阅读';
+$JLMS_LANGUAGE['_JLMS_DROP_STATUS_CORRECT'] = '已更正';
+$JLMS_LANGUAGE['_JLMS_DROP_ITEM_LINK'] = '下载';
+
+$JLMS_LANGUAGE['_JLMS_DROP_SET_READ'] = "标记为'已阅读'";
+$JLMS_LANGUAGE['_JLMS_DROP_SET_UNREAD'] = "标记为'未阅读'";
+$JLMS_LANGUAGE['_JLMS_DROP_SET_CORR'] = '更正';
+
+$JLMS_LANGUAGE['_JLMS_DROP_NEW_ITEM'] = '新下拉选单项目';
+$JLMS_LANGUAGE['_JLMS_DROP_DEL_ITEM'] = '删除拉选单项目';
+$JLMS_LANGUAGE['_JLMS_DROP_SEND_TO'] = '送至:';
+$JLMS_LANGUAGE['_JLMS_DROP_MARK_AS_CORRECTED'] = "标记为'已更正':";
+
+$JLMS_LANGUAGE['_JLMS_DROP_LINK_FULL_DESCR'] = "查看完整描述";
+$JLMS_LANGUAGE['_JLMS_DROP_LINK_MORE_TEXT'] = "更多";
+$JLMS_LANGUAGE['_JLMS_DROP_SENDER'] = "由谁送出:";
+$JLMS_LANGUAGE['_JLMS_DROP_RECV'] = "由谁接收:";
+//header
+$JLMS_LANGUAGE['_JLMS_DROP_INBOX'] = "收件匣:";
+$JLMS_LANGUAGE['_JLMS_DROP_OUTBOX'] = "寄件匣:";
+?>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<jlmsplugin type="paymentprocessor" version="1.0.0">
+	<name>2Checkout</name>
+	<license>JoomlaLMS</license>
+	<author>www.joomlalms.com</author>
+	<authorEmail>isupport@joomlalms.com</authorEmail>
+	<authorUrl>http://www.joomlalms.com</authorUrl>
+	<creationDate>2006-09-10</creationDate>
+	<copyright>2006 - 2010 JoomlaLMS eLearning Software</copyright>
+	<version>1.0.7</version>
+	<description>2Checkout payment processor for JoomlaLMS</description>
+	<params>
+		<param name="demo" type="radio" default="1" label="Test mode" description="Enable test mode">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default=""/>
+		<param name="x_login" type="text" size="20" default="" label="Account number" description="Numerical 2checkout vendor account number."/>
+		<param name="pay_method" type="radio" default="CC" label="Pay method" description="This selects the payment method during the checkout process.">
+			<option value="CC">Credit card</option>
+			<option value="CK">Check</option>
+		</param>				
+		<param name="x_secret" type="text" size="40" default="" label="Secret word" description="Your Secret Word for 2Checkout.com. Makes the transactions more secure. The Secret Word should be a single or compound word or group of letters and numbers with no spaces. Examples: Monkey1mouse, 4smal3phone, gooblyWbubze."/>
+
+		<param name="x_email_merchant" type="radio" default="TRUE" label="Merchant Notifications" description="Should 2CheckOut e-mail a receipt to the site owner.">
+			<option value="TRUE">Yes</option>
+			<option value="FALSE">No</option>
+		</param>				
+		<param name="lang" type="text" size="2" default="en" label="Language" description="Set the equal to sp for Spanish purchase routine pages. English is the default if this parameter is absent, but you may pass in en as well."/>
+		<param name="subscr_status" type="radio" default="0" label="PDF invoice" description="PDF invoice">
+			<option value="0">Never</option>
+			<option value="1">Pending</option>
+			<option value="2">Completed</option>
+		</param>
+	</params>
+</jlmsplugin>

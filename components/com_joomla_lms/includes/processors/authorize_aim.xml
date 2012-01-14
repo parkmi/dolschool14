@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<jlmsplugin type="paymentprocessor" version="1.0.0">
+	<name>Authorize.net</name>
+	<license>JoomlaLMS</license>
+	<author>www.joomlalms.com</author>
+	<authorEmail>support@joomlalms.com</authorEmail>
+	<authorUrl>http://www.joomlalms.com</authorUrl>
+	<creationDate>July 2010</creationDate>
+	<copyright>2006 - 2010 JoomlaLMS eLearning Software</copyright>
+	<version>1.0.7</version>
+	<description>Authorize.net AIM payment processor for JoomlaLMS component.</description>
+	<params>
+		<param name="x_login" type="text" size="40" default="" label="Login ID" description="Your Authorize.net API ID." />
+		<param name="x_tran_key" type="text" size="40" default="" label="Transaction key" description="Your Authorize.net transaction key." />
+		<param name="x_test_request" type="radio" default="TRUE" label="Test mode" description="">
+			<option value="FALSE">No</option>
+			<option value="TRUE">Yes</option>
+		</param>
+
+		<param name="pre_text" type="textarea" default="Please enter the billing details..." label="Description Text" rows="5" cols="30" description="Description text above the billing data."/>
+
+		<param name="enable_https" type="radio" default="1" label="Enable HTTPS" description="Enable HTTPS for the form submission within the site">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="" label="Email settings" description="" /> 
+		<param name="x_email_customer" type="radio" default="TRUE" label="Email customer" description="Indicates whether a confirmation email should be sent to the customer.">
+			<option value="FALSE">No</option>
+			<option value="TRUE">Yes</option>
+		</param>
+		<param name="x_merchant_email" type="text" size="40" default="" label="Merchant email" description="Email address to which the merchant's copy of the customer confirmation email should be sent. If a value is submitted, an email will be sent to this address as well as the address(es) configured in the Merchant Interface." />
+
+		<param name="@spacer" type="spacer" default="" label="Subscription payments" description="" /> 
+		<param name="x_description" type="textarea" default="" label="Description" rows="5" cols="30" description="Description of the transaction. Use [SUB] for the subscription name string."/>
+		<param name="return_url" type="text" size="40" default="" label="Return URL" description="URL of the page to redirect after successfull payment. Leave blank for default." />
+		<param name="description" type="textarea" default="Your description." label="Description" rows="5" cols="30" description="The message that will be displayed on payment's (subscription's) completion."/>
+		<param name="subscr_status" type="radio" default="0" label="PDF invoice" description="PDF invoice">
+			<option value="0">Never</option>
+			<option value="2">Completed</option>
+		</param>
+	</params>
+</jlmsplugin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jlmsplugin version="1.0.0" group="course" type="plugin">
+	<name>Waiting lists</name>
+	<author>JoomlaLMS Team</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>JoomlaLMS</copyright>
+	<license>http://www.joomlalms.com</license>
+	<authorEmail>info@joomlalms.com</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<version>1.0.7</version>
+	<description>Plugin controls course Waiting List functionality</description>
+	<short_description>Waiting lists control system</short_description>
+	<files>
+		<filename plugin="waitinglist">waitinglist.php</filename>
+	</files>
+	<params>
+	</params>
+</jlmsplugin>

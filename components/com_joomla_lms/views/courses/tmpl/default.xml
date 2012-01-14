@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Courses List">
+		<message>List of JoomlaLMS courses</message>
+	</layout>
+	<fields name="params">
+	       <fieldset name="basic">
+				<field
+					type="radio"
+					name="blog"
+					label="Show Courses List as 'Blog'" 
+					description="Show JoomlaLMS courses list using multi-columns blog layout"
+					default="0">
+						<option value="0">No</option>
+						<option value="1">Yes</option>
+				</field>
+				<field
+					type="text" 
+					name="leading_courses" 
+					size="75" 			
+					label="Leading courses" 
+					description="IDs of courses (comma separated) to display as leading elements (full width at the top) on the blog page">
+				</field>
+				<field
+					type="text" 
+					name="num_columns" 
+					size="3" 
+					default="2" 
+					label="Columns" 
+					description="Set how many columns to use per row for 'Blog' layout">
+				</field>
+	        </fieldset>
+	</fields>
+</metadata>

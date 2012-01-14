@@ -1,0 +1,24 @@
+<patTemplate:tmpl name="page">
+<table class="hits_data" cellpadding="0" cellspacing="0">
+	<patTemplate:tmpl name="grade" type="condition" conditionvar="doesnotmatter">
+		<patTemplate:sub condition="__first">
+		<tr>
+			<patTemplate:tmpl name="cell_header">
+			<th class="hit_title">
+				<patTemplate:var name="value" modifier="htmlentities"/>
+			</th>
+			</patTemplate:tmpl>
+		</tr>	
+		</patTemplate:sub>	
+		<patTemplate:sub condition="__default">
+		<tr>
+			<patTemplate:tmpl name="cell">
+			<td align="center" class="hit_value">
+				<patTemplate:var name="value" modifier="htmlentities"/>
+			</td>
+			</patTemplate:tmpl>
+		</tr>	
+		</patTemplate:sub>
+	</patTemplate:tmpl>
+</table>
+</patTemplate:tmpl>	

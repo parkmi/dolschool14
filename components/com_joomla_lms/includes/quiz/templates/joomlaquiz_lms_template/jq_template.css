@@ -1,0 +1,217 @@
+div.jq_results_container_outer {
+	border: 0px;
+	width:100%;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+}
+div.jq_results_container {
+	border: 1px solid #000000;
+	width: 90%;
+	text-align: center;
+	margin: 0px auto;
+}
+div.jq_results_container_header {
+	/*background: url(images/msg_header.jpg) no-repeat;
+	background-position:right top;*/
+	background-color: #7B869A;
+	border: 0px;
+	height: 18px;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+}
+div.jq_results_container_inner {
+	border: 1px solid #7B869A;
+}
+table.jq_results_container {
+	width: 100%;
+	text-align: center;
+	margin:0px auto;
+}
+table.jq_results_container td.jq_results_td1 {
+	width: 50%;
+	text-align: left;
+	padding-left:5px;
+}
+table.jq_results_container td.jq_results_td2 {
+	font-weight: bold;
+	text-align: left;
+}
+table.jq_results_container td.jq_footer_td {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #7B869A;
+	margin:0px auto;
+}
+table.jq_results_container td.jq_footer_td div.back_button a {
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #7B869A;
+	text-align: center;
+	border:0px;
+	margin:0px auto;
+}
+table.jq_results_container td.jq_footer_td div.back_button{
+	background: #7B869A;
+	text-align: center;
+	border:0px;
+	margin:0px auto;
+}
+div.jq_results_in_container {
+	border: 1px solid #000000;
+	text-align: center;
+	margin:0px auto;
+}
+table.jq_results_msg {
+	text-align: center;
+	margin:0px auto;
+}
+table.jq_results_msg td {
+	text-align: center;
+}
+
+
+div.jq_messagebox_container_outer {
+	border: 0px;
+	/*padding: 40px 20px 0px 20px;*/
+	text-align: center;
+}
+div.jq_messagebox_container {
+	border: 1px solid #000000;
+	width: 250px;
+	text-align: center;
+	margin: 0px auto;
+}
+div.jq_messagebox_container_header {
+	/*background: url(images/msg_header.jpg) no-repeat;
+	background-position:right top;*/
+	background-color: #7B869A;
+	border: 0px;
+	height: 18px;
+}
+div.jq_messagebox_container_inner {
+	border: 1px solid #7B869A;
+}
+div.jq_messagebox_container_message {
+	height: 80px;
+	border: 1px solid #000000;
+	vertical-align: middle;
+}
+td.jq_messagebox_message {
+	font-size: 18px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:18px;
+}
+/*div.jq_draggable_div {
+	position:relative;
+	width:250px;
+	height:30px;
+	margin:10px;
+	background-color:#cccccc;
+	border: 1px solid #000;
+	cursor:default;
+	text-align:center;
+	vertical-align:middle;
+	color:#000000;
+}
+div.jq_draggable_div:hover {
+	cursor:pointer;
+}
+div.jq_draggable_stop_div {
+	position:relative;
+	width:250px;
+	height:30px;
+	margin:10px;
+	background: url(images/drag_img.gif) no-repeat;
+	background-position:left;
+	background-color:#cccccc;
+	border: 1px solid #000;
+	cursor:default;
+	text-align:center;
+	vertical-align:middle;
+	color:#000000;
+}
+div.jq_cont_drag_div {
+	position:relative;
+	width:250px;
+	height:30px;
+	margin:10px;
+	background: url(images/cont_img.gif) no-repeat;
+	background-position:right;
+	background-color:#666666;
+	border: 1px solid #000;
+	cursor:default;
+	text-align:center;
+	vertical-align:middle;
+	color:#FFFFFF;
+}
+div.jq_highlight_drag_div {
+	position:relative;
+	width:250px;
+	height:30px;
+	margin:10px;
+	background: url(images/cont_img.gif) no-repeat;
+	background-position:right;
+	background-color:#cccccc;
+	border: 1px solid #000;
+	cursor:default;
+	text-align:center;
+	vertical-align:middle;
+	color:#000000;
+}*/
+#jq_start_link_container {
+	float:right;
+	margin-right:10px;
+	background:url(images/next.png);
+	cursor:pointer;
+	height:32px;
+	width:32px;
+	background-repeat:no-repeat;
+}
+#jq_next_link_container {
+	float:right;
+	margin-right:10px;
+	background:url(images/apply.png);
+	cursor:pointer;
+	height:32px;
+	width:32px;
+	background-repeat:no-repeat;
+}
+#jq_continue_link_container {
+	float:right;
+	margin-right:10px;
+	background:url(images/next.png);
+	cursor:pointer;
+	height:32px;
+	width:32px;
+	background-repeat:no-repeat;
+}
+#jq_back_link_container {
+	float:right;
+	margin-right:10px;
+	background:url(images/back.png);
+	cursor:pointer;
+	height:32px;
+	width:32px;
+	background-repeat:no-repeat;
+}
+#jq_quiz_task_link_container {
+	visibility:hidden;
+	display:none;
+}
+.jq_quiz_result_reviews{
+	text-align:center;
+	font-size:14px;
+	padding:0px 20px 0px 10px; 
+	visibility:hidden; 
+	display:none; 
+	overflow:hidden;
+}
+.your_answer
+{
+	font-size:14px;
+	color:#666666;
+	padding:10px 20px;
+	text-align: center;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jlmsplugin version="1.0.0" group="user" type="plugin">
+	<name>CEO auto-assignment</name>
+	<author>JoomlaLMS Team</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>JoomlaLMS</copyright>
+	<license>http://www.joomlalms.com</license>
+	<authorEmail>info@joomlalms.com</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<version>1.0.7</version>
+	<description>This plugin associates a user with the chosen CEO right after the user was added to a course.
+'CEO user_id' parameter is responsible for CEO user that will be automatically associated with users after they are added to courses.
+To set this parameter you should find a necessary user in Joomla User Manager, memorize his ID and place it in this field.</description>
+	<short_description>Automatically associates users with CEO</short_description>
+	<files>
+		<filename plugin="ceoassoc">ceoassoc.php</filename>
+	</files>
+	<params>
+		<param name="ceo_user_id" type="text" default="0" size="5" label="CEO user_id" description="Insert CEO user_id here" />
+	</params>
+</jlmsplugin>

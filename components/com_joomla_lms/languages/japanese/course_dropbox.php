@@ -1,0 +1,41 @@
+<?php
+/**
+* /languages/japanese/course_dropbox.php
+* Joomla LMS Component
+* * * ElearningForce DK
+**/
+
+// no direct access
+defined( '_VALID_MOS' ) or die( 'Restricted access' );
+
+$JLMS_LANGUAGE['_JLMS_DROP_ADD_ITEM'] = 'ドロップボックスにアイテム追加';
+$JLMS_LANGUAGE['_JLMS_DROP_BTN_ADD_ITEM'] = 'アイテム追加';
+$JLMS_LANGUAGE['_JLMS_DROP_SELECT_ITEM'] = 'アイテムを選択してください';
+$JLMS_LANGUAGE['_JLMS_DROP_TITLE'] = 'ドロップボックスコース';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_NAME'] = 'お名前';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_FROM'] = 'FROM';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_TO'] = 'TO';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_CORRECTED'] = '訂正済み';
+$JLMS_LANGUAGE['_JLMS_DROP_TBL_HEAD_DESCR'] = 'コメント';
+$JLMS_LANGUAGE['_JLMS_DROP_STATUS_READ'] = '既読';
+$JLMS_LANGUAGE['_JLMS_DROP_STATUS_UNREAD'] = '未読';
+$JLMS_LANGUAGE['_JLMS_DROP_STATUS_CORRECT'] = '訂正済み';
+$JLMS_LANGUAGE['_JLMS_DROP_ITEM_LINK'] = 'ダウンロード';
+
+$JLMS_LANGUAGE['_JLMS_DROP_SET_READ'] = "「既読」にマークする";
+$JLMS_LANGUAGE['_JLMS_DROP_SET_UNREAD'] = "「未読」にマークする";
+$JLMS_LANGUAGE['_JLMS_DROP_SET_CORR'] = '訂正';
+
+$JLMS_LANGUAGE['_JLMS_DROP_NEW_ITEM'] = '新ドロップボックスアイテム';
+$JLMS_LANGUAGE['_JLMS_DROP_DEL_ITEM'] = 'ドロップボックスアイテム削除';
+$JLMS_LANGUAGE['_JLMS_DROP_SEND_TO'] = '送信：';
+$JLMS_LANGUAGE['_JLMS_DROP_MARK_AS_CORRECTED'] = "「訂正済み」にマークする";
+
+$JLMS_LANGUAGE['_JLMS_DROP_LINK_FULL_DESCR'] = "すべての説明表示";
+$JLMS_LANGUAGE['_JLMS_DROP_LINK_MORE_TEXT'] = "もっと";
+$JLMS_LANGUAGE['_JLMS_DROP_SENDER'] = "送信者：";
+$JLMS_LANGUAGE['_JLMS_DROP_RECV'] = "受信者：";
+//header
+$JLMS_LANGUAGE['_JLMS_DROP_INBOX'] = "入稿:";
+$JLMS_LANGUAGE['_JLMS_DROP_OUTBOX'] = "出稿";
+?>

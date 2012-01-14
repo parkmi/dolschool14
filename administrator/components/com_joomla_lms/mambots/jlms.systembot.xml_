@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="mambot" group="system">
+	<name>JLMS system mambot</name>
+	<license>ElearningForce Inc</license>
+	<author>JoomlaLMS</author>
+	<authorEmail>lms@elearningforce.biz</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<creationDate>June 2009</creationDate>
+	<copyright>ElearningForce Inc</copyright>
+	<version>1.0.6</version>
+	<description>JoomlaLMS and SMF forum bridge</description>
+	<files>
+		<filename mambot="jlms.systembot">jlms.systembot.php</filename>
+	</files>	
+</mosinstall>

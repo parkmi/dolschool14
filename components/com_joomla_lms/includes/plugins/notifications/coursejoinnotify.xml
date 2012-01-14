@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jlmsplugin version="1.0.0" group="notifications" type="plugin">
+	<name>Course Join Notify Plugin</name>
+	<author>JoomlaLMS Team</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>JoomlaLMS</copyright>
+	<license>http://www.joomlalms.com</license>
+	<authorEmail>info@joomlalms.com</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<version>1.0.7</version>
+	<description>Plugin notifies users about joining a course when they was added to the course attendeees list. (i.e. after enrolling into the course or after joining the course from Waiting List)</description>
+	<short_description>Course joining notification plugin for 'Waiting lists'</short_description>
+	<files>
+		<filename plugin="coursejoinnotify">coursejoinnotify.php</filename>
+	</files>
+	<params>
+		<param name="mail_subject" type="text" default="" size="50" label="Mail subject" description="Course joining notification" />
+		<param name="mail_template" type="textarea" default="" cols="30" rows="10" label="Mail template" description="Hello {user_name}, You have just been added to the course {course_name} attendees list." />
+	</params>
+</jlmsplugin>

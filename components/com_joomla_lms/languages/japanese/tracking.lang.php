@@ -1,0 +1,48 @@
+<?php
+/**
+* /languages/japanese/tracking.lang.php
+* Joomla LMS Component
+* * * ElearningForce DK
+**/
+
+// no direct access
+defined( '_VALID_MOS' ) or die( 'Restricted access' );
+
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE'] = "トラックバック";
+$JLMS_LANGUAGE['_JLMS_TRACK_CLEAR_TITLE'] = "トラックバック統計をクリア";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_ACCESS'] = "アクセス：";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_1'] = "ドキュメント";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_2'] = "リンク";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_3'] = "ドロップボックス";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_4'] = "ラーニングパス";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_5'] = "ホームワーク";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_6'] = "お知らせ";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_7'] = "協議";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_8'] = "チャット";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_9'] = "ラーニングパスプレーヤー";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_10'] = "フォーラム";
+$JLMS_LANGUAGE['_JLMS_TRACK_TITLE_TOOLS'] = "ツール";
+
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_DATE'] = "日にち";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_STU'] = "生徒";
+
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_DOCS'] = "Docs";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_LINKS'] = "リンク";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_DROP'] = "ドロップボックス";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_LPATH'] = "ラーニングパス";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_HW'] = "ホームワーク";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_ANNOUNC'] = "お知らせ";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_CONF'] = "Conf.";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_CHAT'] = "チャット";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_LPPLAY'] = "LPプレーヤー";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_H_FORUM'] = "フォーラム";
+
+//page1: documents
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_DOC_NAME'] = "ドキュメント";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_DOC_DOWNS'] = "ダウンロード";
+$JLMS_LANGUAGE['_JLMS_TRACK_TBL_DOC_LAST'] = "ラストダウンロード";
+$JLMS_LANGUAGE['_JLMS_TRACK_VIEW_DETAILS'] = "詳細表示";
+//clear
+$JLMS_LANGUAGE['_JLMS_TRACK_CLEAR_ALL'] = "データベースのすべての結果をクリア";
+$JLMS_LANGUAGE['_JLMS_TRACK_CLEAR_PERIOD'] = "期間決定";
+?>

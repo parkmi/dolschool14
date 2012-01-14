@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Joomla_LMS</name>
+	<author>JoomlaLMS Team</author>
+	<creationDate>August 2011</creationDate>
+	<copyright>(C) 2006 - 2011 JoomlaLMS. All rights reserved.</copyright>
+	<authorEmail>support@joomlalms.com</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<version>1.2.0</version>
+	<description>Learning Management System</description>
+	<install>		 
+        <sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>		  
+	</install>	
+	<installfile>install.joomla_lms.php</installfile>
+	<uninstallfile>uninstall.joomla_lms.php</uninstallfile>
+	<files>
+		<filename>callback.php</filename>
+		<filename>index.html</filename>
+		<filename>joomla_lms.agenda.html.php</filename>
+		<filename>joomla_lms.agenda.php</filename>
+		<filename>joomla_lms.attendance.html.php</filename>
+		<filename>joomla_lms.attendance.php</filename>
+		<filename>joomla_lms.branding.php</filename>
+		<filename>joomla_lms.cart.html.php</filename>
+		<filename>joomla_lms.cart.php</filename>
+		<filename>joomla_lms.chat.html.php</filename>
+		<filename>joomla_lms.chat.php</filename>
+		<filename>joomla_lms.class.php</filename>
+		<filename>joomla_lms.conference.html.php</filename>
+		<filename>joomla_lms.conference.php</filename>
+		<filename>joomla_lms.courses.html.php</filename>
+		<filename>joomla_lms.courses.php</filename>
+		<filename>joomla_lms.course_dropbox.html.php</filename>
+		<filename>joomla_lms.course_dropbox.php</filename>
+		<filename>joomla_lms.course_forum.html.php</filename>
+		<filename>joomla_lms.course_forum.php</filename>
+		<filename>joomla_lms.course_links.html.php</filename>
+		<filename>joomla_lms.course_links.php</filename>
+		<filename>joomla_lms.course_lpath.html.php</filename>
+		<filename>joomla_lms.course_lpath.php</filename>
+		<filename>joomla_lms.course_lpathstu.html.php</filename>
+		<filename>joomla_lms.course_lpathstu.php</filename>
+		<filename>joomla_lms.course_users.html.php</filename>
+		<filename>joomla_lms.course_users.php</filename>
+		<filename>joomla_lms.docs.hlpr.php</filename>
+		<filename>joomla_lms.docs.html.php</filename>
+		<filename>joomla_lms.docs.php</filename>
+		<filename>joomla_lms.func.php</filename>
+		<filename>joomla_lms.gradebook.html.php</filename>
+		<filename>joomla_lms.gradebook.php</filename>
+		<filename>joomla_lms.homework.html.php</filename>
+		<filename>joomla_lms.homework.php</filename>
+		<filename>joomla_lms.html.php</filename>
+		<filename>joomla_lms.mailbox.html.php</filename>
+		<filename>joomla_lms.mailbox.php</filename>
+		<filename>joomla_lms.main.php</filename>
+		<filename>joomla_lms.online.html.php</filename>
+		<filename>joomla_lms.online.php</filename>
+		<filename>joomla_lms.outdocs.html.php</filename>
+		<filename>joomla_lms.outdocs.php</filename>
+		<filename>joomla_lms.plugins.php</filename>
+		<filename>joomla_lms.php</filename>
+		<filename>joomla_lms.quiz.html.php</filename>
+		<filename>joomla_lms.quiz.php</filename>
+		<filename>joomla_lms.reports.php</filename>
+		<filename>joomla_lms.reports.html.php</filename>
+		<filename>joomla_lms.scorm.php</filename>
+		<filename>joomla_lms.subscriptions.html.php</filename>
+		<filename>joomla_lms.subscriptions.php</filename>
+		<filename>joomla_lms.topics.class.php</filename>
+		<filename>joomla_lms.topics.html.php</filename>
+		<filename>joomla_lms.topics.php</filename>
+		<filename>joomla_lms.tracking.html.php</filename>
+		<filename>joomla_lms.tracking.php</filename>
+		<filename>joomla_lms.user_notices.html.php</filename>
+		<filename>joomla_lms.user_notices.php</filename>
+		<filename>metadata.xml</filename>
+		<filename>router.php</filename>
+
+		<folder>fonts</folder>
+		<folder>includes</folder>
+		<folder>languages</folder>
+		<folder>lms_css</folder>			
+		<folder>lms_images</folder>		
+		<folder>mootools</folder>
+		<folder>upload</folder>
+		<folder>views</folder>
+	</files>
+	<administration>
+		<menu img="../components/com_joomla_lms/lms_images/logo_small.png">JoomlaLMS</menu>
+		<submenu>
+			<menu img="class:user" task="users">Users Management</menu>
+			<menu img="class:content" task="courses">Courses Management</menu>
+			<menu img="class:config" task="config">Configuration</menu>
+			<menu img="class:component" task="look_feel">Appearance</menu>
+			<menu img="class:menu" task="menu_manage">Menu manager</menu>
+			<menu img="class:content" task="subscriptions">Subscriptions</menu>
+			<menu img="class:content" task="payments">Payments List</menu>
+			<menu img="class:plugin" task="processorslist">Payment Processors</menu>
+			<menu img="class:plugin" task="pluginslist">Plugins</menu>
+			<menu img="class:info" task="about">About JoomlaLMS</menu>
+		</submenu>
+		<files>
+			<folder>files</folder>			
+			<folder>mambots</folder>
+			<folder>language</folder>
+
+			<filename>joomla_lms.xml</filename>
+
+			<filename>Snoopy.class.php</filename>
+			<filename>toolbar.joomla_lms.html.php</filename>
+			<filename>toolbar.joomla_lms.php</filename>
+			<filename>install.joomla_lms.php</filename>
+			<filename>admin.joomla_lms.html.php</filename>
+			<filename>admin.joomla_lms.func.php</filename>
+			<filename>admin.joomla_lms.php</filename>
+			<filename>uninstall.joomla_lms.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+
+			<filename>callback.php</filename>
+		</files>
+	</administration>
+</install>

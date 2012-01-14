@@ -1,0 +1,40 @@
+<?php
+/**
+* /languages/japanese/homework.lang.php
+* Joomla LMS Component
+* * * ElearningForce DK
+**/
+
+// no direct access
+defined( '_VALID_MOS' ) or die( 'Restricted access' );
+
+$JLMS_LANGUAGE['_JLMS_HW_TITLE_HW'] = 'ホームワーク';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_HEAD_DESCR'] = '説明';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_HEAD_HW'] = 'ホームワーク';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_HEAD_DATE'] = '日にち';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_HEAD_ENDDATE'] = '終了日';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_LINK_TITLE'] = 'ホームワーク表示';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_LINK_TITLE_T'] = '統計表示';
+$JLMS_LANGUAGE['_JLMS_HW_IMG_DEL_HW'] = 'ホームワーク削除';
+$JLMS_LANGUAGE['_JLMS_HW_IMG_EDIT_HW'] = 'ホームワーク編集';
+$JLMS_LANGUAGE['_JLMS_HW_IMG_NEW_HW'] = '新ホームワーク';
+$JLMS_LANGUAGE['_JLMS_HW_ENTER_HW_NAME'] = 'ホームワーク名を記入';
+$JLMS_LANGUAGE['_JLMS_HW_EDIT_HW'] = 'ホームワークタスクを編集';
+$JLMS_LANGUAGE['_JLMS_HW_CREATE_HW'] = 'ホームワークタスクを作成 ';
+$JLMS_LANGUAGE['_JLMS_HW_SET_COMPLETE'] = '完了';
+$JLMS_LANGUAGE['_JLMS_HW_SET_INCOMPLETE'] = '未完了にマークする';
+$JLMS_LANGUAGE['_JLMS_HW_STATUS_COMPLETED'] = '完了';
+$JLMS_LANGUAGE['_JLMS_HW_STATUS_INCOMPLETED'] = '未完了';
+//view and stats pages
+$JLMS_LANGUAGE['_JLMS_HW_DATE_OF_COMPLETING'] = '完了日：';
+$JLMS_LANGUAGE['_JLMS_HW_HOMEWORK_TASK'] = 'ホームワークタスク：';
+$JLMS_LANGUAGE['_JLMS_HW_HOMEWORK_DATE'] = 'ホームワーク日';
+$JLMS_LANGUAGE['_JLMS_HW_HOMEWORK_ENDDATE'] = '終了日';
+$JLMS_LANGUAGE['_JLMS_HW_FILTER_HW'] = 'ホームワーク表示 ';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_HEAD_STU'] = '生徒';
+$JLMS_LANGUAGE['_JLMS_HW_TBL_HEAD_GROUP'] = 'グループ';
+$JLMS_LANGUAGE['_JLMS_HW_FILTER_ALL_RESULTS'] = 'すべて';
+$JLMS_LANGUAGE['_JLMS_HW_FILTER_ALL_GROUPS'] = 'すべてのグループ';
+$JLMS_LANGUAGE['_JLMS_HW_FILTER_ALL_STUDENTS'] = 'すべてのユーザー';
+$JLMS_LANGUAGE['_JLMS_HW_LINK_SEND_EMAIL'] = ' E-mail送信';
+?>
