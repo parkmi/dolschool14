@@ -1,0 +1,124 @@
+<patTemplate:tmpl name="page">
+<table>
+	<tr class="title_report">
+		<td>
+			<patTemplate:tmpl name="title_report">
+				{TITLE}
+			</patTemplate:tmpl>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<patTemplate:tmpl name="date_report">
+			<table class="after_header_info">
+				<tr>
+					<td class="date_title">
+						Date:
+					</td>
+					<td class="date_value">
+						{DATE}
+					</td>
+				</tr>
+				<patTemplate:tmpl name="courses">
+					<tr>
+						<td class="usergroup_title">
+							{NAME_COURSE}:
+						</td>
+						<td class="usergroup_value">
+							{COURSE}
+						</td>
+					</tr>
+				</patTemplate:tmpl>
+				<patTemplate:tmpl name="groups">
+					<tr>
+						<td class="usergroup_title">
+							{NAME_GROUP}:
+						</td>
+						<td class="usergroup_value">
+							{GROUP}
+						</td>
+					</tr>
+				</patTemplate:tmpl>
+				<patTemplate:tmpl name="users">
+					<tr>
+						<td class="usergroup_title">
+							{NAME_USER}:
+						</td>
+						<td class="usergroup_value">
+							{USER}
+						</td>
+					</tr>
+				</patTemplate:tmpl>
+				<patTemplate:tmpl name="categories">
+					<tr>
+						<td class="category_title">
+							{NAME_CATEGORY}:
+						</td>
+						<td class="category_value">
+							{CATEGORY}
+						</td>
+					</tr>
+				</patTemplate:tmpl>
+			</table>
+			<br />
+		</patTemplate:tmpl>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<table cellpadding="0" cellspacing="">
+				<tr>
+					<td colspan="{COLSPAN_HEADER}">
+						<table class="hits_data" cellpadding="0" cellspacing="0">
+							<patTemplate:tmpl name="info" type="condition" conditionvar="doesnotmatter">
+								<patTemplate:sub condition="__first">
+								<tr>
+									<patTemplate:tmpl name="cell_header_info">
+									<th class="header_title">
+										<patTemplate:var name="value" modifier="htmlentities"/>
+									</th>
+									</patTemplate:tmpl>
+								</tr>	
+								</patTemplate:sub>	
+								<patTemplate:sub condition="__default">
+								<tr class="row_{ROW_TR}">
+									<patTemplate:tmpl name="cell_info">
+										<td class="header_value">
+											<patTemplate:var name="value" modifier="htmlentities"/>
+										</td>
+									</patTemplate:tmpl>
+								</tr>	
+								</patTemplate:sub>
+							</patTemplate:tmpl>
+						</table>
+					</td>
+					<td>
+						<table class="hits_data" cellpadding="0" cellspacing="0">
+							<patTemplate:tmpl name="gradebook" type="condition" conditionvar="doesnotmatter">
+								<patTemplate:sub condition="__first">
+								<tr>
+									<patTemplate:tmpl name="cell_header_grade">
+									<th class="hit_title">
+										<patTemplate:var name="value" modifier="htmlentities"/>
+									</th>
+									</patTemplate:tmpl>
+								</tr>	
+								</patTemplate:sub>	
+								<patTemplate:sub condition="__default">
+								<tr class="row_{ROW_TR}">
+									<patTemplate:tmpl name="cell_grade">
+										<td class="hit_value">
+											<patTemplate:var name="value" modifier="htmlentities"/>
+										</td>
+									</patTemplate:tmpl>
+								</tr>
+								</patTemplate:sub>
+							</patTemplate:tmpl>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</patTemplate:tmpl>

@@ -1,0 +1,88 @@
+<?php
+/**
+* /languages/japanese/courses_main.lang.php
+* Joomla LMS Component
+* * * ElearningForce DK
+**/
+
+// no direct access
+defined( '_VALID_MOS' ) or die( 'Restricted access' );
+
+/* new in 1.0.1 */
+
+$JLMS_LANGUAGE['_JLMS_COURSES_TITLE_SETTINGS_COURSE'] = '設定';
+$JLMS_LANGUAGE['_JLMS_COURSES_TITLE_SETTINGS_SUCCESS'] = 'コース設定保存に成功しました';
+//course settings
+$JLMS_LANGUAGE['_JLMS_COURSEHOME_TITLE'] = 'コースホームページ設定';
+$JLMS_LANGUAGE['_JLMS_COURSEHOME_LP_REDIRECT'] = 'ラーニングパスに自動リダイレクト (生徒用)';
+$JLMS_LANGUAGE['_JLMS_COURSEHOME_SELECT_LP'] = '- ラーニングパス選択 - ';
+$JLMS_LANGUAGE['_JLMS_COURSEHOME_HW_MODULE_VIEW'] = 'ホームワークモジュールは公開されました';
+$JLMS_LANGUAGE['_JLMS_COURSEHOME_AG_MODULE_VIEW'] = 'お知らせモジュールは公開されました';
+$JLMS_LANGUAGE['_JLMS_COURSEHOME_DP_MODULE_VIEW'] = 'ドロップボックスモジュールは公開されました';
+
+$JLMS_LANGUAGE['_JLMS_COURSES_MENU_ITEM'] = 'メニューアイテム';
+$JLMS_LANGUAGE['_JLMS_COURSES_MENU_HIDE'] = '隠す';
+$JLMS_LANGUAGE['_JLMS_COURSES_MENU_SHOW'] = '表示する';
+$JLMS_LANGUAGE['_JLMS_COURSES_MENU_INFO'] = 'このコース設定は管理人によって否認されています';
+$JLMS_LANGUAGE['_JLMS_COURSES_MENU_ENABLED'] = '表示可';
+$JLMS_LANGUAGE['_JLMS_COURSES_MENU_TEACHERS'] = "講師のメニュー";
+$JLMS_LANGUAGE['_JLMS_COURSES_MENU_STUDENTS'] = "生徒のメニュー";
+//new/edit course
+$JLMS_LANGUAGE['_JLMS_COURSES_ACCESS_LEVEL'] = 'アクセスレベル：';
+$JLMS_LANGUAGE['_JLMS_COURSES_DEFAULT_ACCESS'] = '- 既定アクセス -';
+
+$JLMS_LANGUAGE['_JLMS_COURSES_IMPORT_BTN'] = 'アップロードファイル &amp; インストール';
+/* 1.0.0 */
+
+$JLMS_LANGUAGE['_JLMS_COURSES_TITLE_EDIT_COURSE'] = 'コース編集';
+$JLMS_LANGUAGE['_JLMS_COURSES_TITLE_DEL_COURSE'] = 'コース削除';
+
+$JLMS_LANGUAGE['_JLMS_COURSES_DEL_ALERT_MESSAGE'] = "選択されたコースはシステムから取り除かれました。すべてのコースのデータ、ユーザー統計と結果は削除されます。よろしければ「はい」をクリックしてください。";
+$JLMS_LANGUAGE['_JLMS_COURSES_EDIT_COURSE'] = '編集';
+$JLMS_LANGUAGE['_JLMS_COURSES_DELETE_COURSE'] = '削除';
+$JLMS_LANGUAGE['_JLMS_COURSES_PUBLISHED_COURSE'] = '公開';
+$JLMS_LANGUAGE['_JLMS_COURSES_TITLE_NEW_COURSE'] = '新コース';
+$JLMS_LANGUAGE['_JLMS_COURSES_TITLE_MY_COURSES'] = 'マイコース';
+$JLMS_LANGUAGE['_JLMS_COURSES_COURSES_LIST'] = 'コースリスト';
+$JLMS_LANGUAGE['_JLMS_COURSES_NEW'] = '新コース';
+$JLMS_LANGUAGE['_JLMS_COURSES_TBL_HEAD_NAME'] = 'コース名';
+$JLMS_LANGUAGE['_JLMS_COURSES_TBL_HEAD_DESCR'] = '説明';
+$JLMS_LANGUAGE['_JLMS_COURSES_ALL_COURSES'] = 'すべてのコース';
+$JLMS_LANGUAGE['_JLMS_COURSES_ALL_CATEGORIES'] = 'すべてのカテゴリ';
+$JLMS_LANGUAGE['_JLMS_COURSES_NO_MY_COURSES'] = 'マイコース以外';
+$JLMS_LANGUAGE['_JLMS_COURSES_SUBSCRIBED'] = '予約済み';
+$JLMS_LANGUAGE['_JLMS_COURSES_NOT_SUBSCRIBED'] = '未予約';
+$JLMS_LANGUAGE['_JLMS_COURSES_FILTER'] = 'フィルター';
+$JLMS_LANGUAGE['_JLMS_COURSES_COURSES_GROUPS'] = 'コースカテゴリ：';
+$JLMS_LANGUAGE['_JLMS_COURSES_COURSES_CAT'] = 'カテゴリ';
+//remark
+$JLMS_LANGUAGE['_JLMS_COURSES_ALREADY'] = '予約済み';
+$JLMS_LANGUAGE['_JLMS_COURSES_ADMIN_SENT'] = 'このコースの予約方法はここをクリックしてアドミンに問い合わせてください';
+// new/edit course
+$JLMS_LANGUAGE['_JLMS_COURSES_SELECT_GROUP'] = 'カテゴリ選択';
+$JLMS_LANGUAGE['_JLMS_COURSES_METADATA'] = 'コースmetadesc:';
+$JLMS_LANGUAGE['_JLMS_COURSES_METAKEYS'] = 'コースmetakeys:';
+$JLMS_LANGUAGE['_JLMS_COURSES_COURSE_LANG'] = 'コース言語';
+$JLMS_LANGUAGE['_JLMS_COURSES_START_DATE'] = '開始日：';
+$JLMS_LANGUAGE['_JLMS_COURSES_FEE_TYPE'] = '料金システム：';
+$JLMS_LANGUAGE['_JLMS_COURSES_FREE'] = '無料';
+$JLMS_LANGUAGE['_JLMS_COURSES_PAID'] = '有料';
+$JLMS_LANGUAGE['_JLMS_COURSES_ENDING_DATE'] = '終了日：';
+$JLMS_LANGUAGE['_JLMS_COURSES_UNPUBLISHING'] = 'この日付けになるとコース非公開';
+$JLMS_LANGUAGE['_JLMS_COURSES_PUBLISHED'] = 'コース公開しますか？';
+$JLMS_LANGUAGE['_JLMS_COURSES_ADD_FORUM'] = 'フォーラム追加しますか？';
+$JLMS_LANGUAGE['_JLMS_COURSES_PRICE'] = '料金';
+$JLMS_LANGUAGE['_JLMS_COURSES_ADD_CHAT'] = 'チャットルーム追加しますか？';
+$JLMS_LANGUAGE['_JLMS_COURSES_ADD_HW'] = 'ホームワークを利用しますか?';
+$JLMS_LANGUAGE['_JLMS_COURSES_ADD_ATTEND'] = '出席の登録を利用しますか?';
+$JLMS_LANGUAGE['_JLMS_COURSES_SELF_REG'] = 'セルフ登録：';
+$JLMS_LANGUAGE['_JLMS_COURSES_CHOOSE_GROUP'] = 'あなたのコースグループを選択してください';
+$JLMS_LANGUAGE['_JLMS_COURSES_PASSWD_INCORRECT'] = 'パスワード違い';
+$JLMS_LANGUAGE['_JLMS_COURSES_EXPORT'] = 'エクスポート';
+$JLMS_LANGUAGE['_JLMS_COURSES_IMPORT'] = 'インポート';
+$JLMS_LANGUAGE['_JLMS_COURSE_UPLOAD_PACKAGE'] = 'コースをインポートするために、エクスポートされたJoomlaLMSパッケージジップファイルを利用できます';
+$JLMS_LANGUAGE['_JLMS_COURSE_PACKAGE_FILE'] = 'パッケージファイル：';
+$JLMS_LANGUAGE['_JLMS_COURSE_IMPORT_SUCCESS'] = 'コースインポートは完了しました。詳細情報表示とコースのリストに戻るために下記のリンクをクリックしてください。';
+$JLMS_LANGUAGE['_JLMS_COURSE_FP_COURSES_TEACH'] = '<strong>あなたの教えているコース：</strong>';
+$JLMS_LANGUAGE['_JLMS_COURSE_FP_COURSES_ENROLL'] = '<strong>あなたの参加しているコース：</strong>';
+?>

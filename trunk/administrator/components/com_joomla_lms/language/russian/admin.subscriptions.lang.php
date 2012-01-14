@@ -1,0 +1,126 @@
+<?php
+/**
+* admin.subscriptions.lang.php
+* (c) JoomaLMS eLearning Software http://www.joomlalms.com/
+**/
+
+// no direct access
+defined( '_JEXEC' ) or die( 'Restricted access' );
+
+$JLMS_LANGUAGE['_JLMS_SUBS_COUNTRIES_TAXES_LIST'] = 'Список стран/налогов';
+$JLMS_LANGUAGE['_JLMS_SUBS_ENABLE_TAX_COUNTING'] = 'Активировать учитывание налогов:';
+$JLMS_LANGUAGE['_JLMS_SUBS_GET_COUNTRY_INFOFMATION'] = 'Получать информацию о стране из:';
+$JLMS_LANGUAGE['_JLMS_SUBS_DEFAULT_TAX_TYPE'] = 'Тип налогов по умолчанию:';
+$JLMS_LANGUAGE['_JLMS_SUBS_PERCENTAGE'] = 'В процентах';
+$JLMS_LANGUAGE['_JLMS_SUBS_ADDITIONAL'] = 'Дополнительно';
+$JLMS_LANGUAGE['_JLMS_SUBS_DEFAULT_TAX_AMOUNT'] = 'Величина налога по умолчанию:';
+$JLMS_LANGUAGE['_JLMS_SUBS_ENABLE_TAX_COUNTING'] = 'Активировать учитывание налогов:';
+$JLMS_LANGUAGE['_JLMS_SUBS_GET_COUNTRY_INFORMATION'] = 'Получать информацию о стране из:';
+$JLMS_LANGUAGE['_JLMS_SUBS_DEFAULT_TAX_AMOUNT'] = 'Величина налога по умолчанию:';
+$JLMS_LANGUAGE['_JLMS_SUBS_NAME'] = 'Название';
+$JLMS_LANGUAGE['_JLMS_SUBS_CODE'] = 'Код';
+$JLMS_LANGUAGE['_JLMS_SUBS_PUBLISHED'] = 'Допущено';
+$JLMS_LANGUAGE['_JLMS_SUBS_TAX_TYPE'] = 'Тип налога';
+$JLMS_LANGUAGE['_JLMS_SUBS_TAX_AMOUNT'] = 'Величина налога';
+$JLMS_LANGUAGE['_JLMS_SUBS_EDIT_COUNTRY'] = 'Редактировать страну';
+$JLMS_LANGUAGE['_JLMS_SUBS_NEW_COUNTRY'] = 'Создать страну';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_CHOOSE_THE_COUNTRY'] = 'Пожалуйста, выберите страну!';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SPECIFY_TAX_AMOUNT'] = 'Пожалуйста, укажите величину налога!';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_FILL_COUNTRIES_LIST'] = 'Пожалуйста, заполните список стран!';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_CHANGE_CODE1'] = 'если какая-либо из стран из списка выше присутствует в в списке стран и допущена - налог будет высчитываться по данным страны.';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_CHANGE_CODE2'] = 'Этот налог не высчитывается для допущенной страны в списке стран. Взамен высчитан налог штата.';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_CHANGE_CODE3'] = 'Параметры штата высчитываются даже если \'США (все штаты)\' есть в списке стран и допущены.';
+$JLMS_LANGUAGE['_JLMS_SUBS_EDIT_COUNTRY'] = 'Редактировать страну';
+$JLMS_LANGUAGE['_JLMS_SUBS_COUNTRY_DETAILS'] = 'Параметры страны';
+$JLMS_LANGUAGE['_JLMS_SUBS_NAME'] = 'Название:';
+$JLMS_LANGUAGE['_JLMS_SUBS_EU_COUNTRIES_CODES'] = 'Коды стран ЕС (разделенные запятой)';
+$JLMS_LANGUAGE['_JLMS_SUBS_REMARK'] = 'Примечание';
+$JLMS_LANGUAGE['_JLMS_SUBS_TAX_DETAILS'] = 'Параметры налога';
+$JLMS_LANGUAGE['_JLMS_SUBS_PUBLISHING_INFO'] = 'Информация о допущении';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_APPLY_NEW_SUBSCRIPTION_DETAILS'] = 'Перечисленные ниже пользователи уже подписаны на эту подписку. Вы хотите применить для них новые параметры подписки?';
+$JLMS_LANGUAGE['_JLMS_SUBS_LIST_OF_USERS'] = 'Список пользователей';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_NAME_IS_TOO_SHORT'] = 'Название подписки слишком короткое.';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SET_REG_PERIOD_PRICE'] = 'Вы должны установить цену за стандартный период.';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SELECT_COURSE_TO_SUBS'] = 'Пожалуйста, выберите курс, чтобы подписаться.';
+$JLMS_LANGUAGE['_JLMS_SUBS_EDIT_SUBSCRIPTION'] = 'Редактировать подписку';
+$JLMS_LANGUAGE['_JLMS_SUBS_ADD_SUBSCRIPTION'] = 'Добавить подписку';
+$JLMS_LANGUAGE['_JLMS_SUBS_SUBSCRIPTION_DETAILS'] = 'Параметры подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_SUBSCRIPTION_NAME'] = 'Название подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_AVAILABLE_COURSES'] = 'Доступные курсы';
+$JLMS_LANGUAGE['_JLMS_SUBS_COURSES_IN_THE_SUBS'] = 'Курсы в подписке';
+$JLMS_LANGUAGE['_JLMS_SUBS_SUBSCRIPTION_TYPE'] = 'Тип подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_PLAN'] = 'План';
+$JLMS_LANGUAGE['_JLMS_SUBS_TERM_OF_ACCESS'] = 'Период доступа';
+$JLMS_LANGUAGE['_JLMS_SUBS_DAYS'] = 'дней';
+$JLMS_LANGUAGE['_JLMS_SUBS_DISCOUNT_P'] = 'Скидка (%)';
+$JLMS_LANGUAGE['_JLMS_SUBS_FIRST_TRIAL_PRICE'] = 'Цена за первый испытательный период';
+$JLMS_LANGUAGE['_JLMS_SUBS_SECOND_TRIAL_PRICE'] = 'Цена за второй испытательный период';
+$JLMS_LANGUAGE['_JLMS_SUBS_REGULAR_PERIOD_PRICE'] = 'Цена за стандартный период';
+$JLMS_LANGUAGE['_JLMS_SUBS_PRICE_SELECTED_COURSES'] = 'Цена выбранных курсов';
+$JLMS_LANGUAGE['_JLMS_SUBS_PRICE'] = 'Цена';
+$JLMS_LANGUAGE['_JLMS_SUBS_SUBSCRIPTION_PRICE'] = 'Цена подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_SUBSCRIPTION_DESC'] = 'Описание подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_RESTRICTED'] = 'Описание подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_RESTRICTED_SUBS'] = 'Закрытая подписка';
+$JLMS_LANGUAGE['_JLMS_SUBS_RESTRICTED_GROUPS'] = 'Закрытые группы';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_INVOICE_CONF'] = 'Настройки счет-фактуры';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_INVOICE_SETT'] = 'Параметры счет-фактуры';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_COMPANY_NAME'] = 'Название компании';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_SHORT_INFO'] = 'Краткая информация';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_COMPANY_DESC'] = 'Описание компании';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_COMMENTS_OR_SPEC_INSTR'] = 'Комментарии или Особые инструкции';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_PAYMENT_TERMS'] = 'Условия платежа';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_INVOICE_FOOTER'] = 'Нижний колонтитул счет-фактуры';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_DEF_THANKS_TEXT'] = 'СПАСИБО ЗА ВАШ ВЫБОР';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_MAIL_SETTINGS'] = 'Параметры письма';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_MAIL_SUBJECT'] = 'Тема письма';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_MAIL_BODY'] = 'Основной текст письма';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_INV_FOR_Y_ORDER'] = 'Счет-фактура для вашего заказа';
+$JLMS_LANGUAGE['_JLMS_SUBS_CONF_CHECK_ATT_FILE'] = 'Здравствуйте. Подробная информация о вашей покупке в присоединенном файле';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SELECT_USR_OR_USRGROUP'] = 'Пожалуйста, выберите пользователя или группу пользователей из списка';
+$JLMS_LANGUAGE['_JLMS_SUBS_ASSIGN_SUBS'] = 'Назначить подписку';
+$JLMS_LANGUAGE['_JLMS_SUBS_OR_NAME'] = 'или имя';
+$JLMS_LANGUAGE['_JLMS_SUBS_OR_EMAIL'] = 'или e-mail';
+$JLMS_LANGUAGE['_JLMS_SUBS_SELECT_SUBS_FROM_LIST'] = 'Пожалуйста, выберите подписку из списка';
+$JLMS_LANGUAGE['_JLMS_SUBS_SUBSCRIPTIONS_LIST'] = 'Список подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_DAY_OF_PAYMENT'] = 'День платежа';
+$JLMS_LANGUAGE['_JLMS_SUBS_WITH_DISCOUNT'] = 'со скидкой';
+
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_CONFIG_SAVED'] = 'Настройки подписки успешно сохранены';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SETTS_SAVED'] = 'Настройки успешно сохранены';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_DELETED'] = 'Подписки успешно удалены.';
+$JLMS_LANGUAGE['_JLMS_SUBS_ALL'] = 'Все подписки';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SLCT_I_TO_PUBL'] = 'Выберите элемент для допущения';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SLCT_I_TO_UNPUBL'] = 'Выберите элемент для отмены допущения';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SLCT_I_TO_PUBL_C'] = 'Выберите элемент, чтобы допустить курс';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_SLCT_I_TO_UNPUBL_C'] = 'Выберите элемент, чтобы отменить допущение курса';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_NO_COMPL_PAYMS'] = 'Для этой подписки нет завершенных платежей.';
+$JLMS_LANGUAGE['_JLMS_SUBS_MSG_CHANGES_APPLIED'] = 'Изменения подписки успешно применены.';
+$JLMS_LANGUAGE['_JLMS_SUBS_ALL_ORDERS_'] = ' - все заказы - ';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_NEW'] = 'Новая страна';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_EDIT'] = 'Редактировать страну';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_TAXES_LIST'] = 'Список стран/налогов';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_LIST'] = 'Список подписок';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_ASSIGN'] = 'Назначить';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_RENEW'] = 'Обновить';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_INV_CFG'] = 'Настройки счет-фактуры';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_EDIT'] = 'Редактировать подписку';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_ADD'] = 'Добавить подписку';
+$JLMS_LANGUAGE['_JLMS_SUBS_TBR_ASSIGN'] = 'Назначить подписку';
+$JLMS_LANGUAGE['_JLMS_SUBS_STATUS'] = 'Статус подписки';
+
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_THEN'] = "Затем ";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_THE_NEXT'] = " следующий(е) ";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_FREE'] = "Бесплатно";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_FIRST_DAY'] = "{free}{a1} {cur} за первый день";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_FIRST_DAYS'] = "{free}{a1} {cur} за первые {p1} дней";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_NEXT_DAY'] = "{then}{free}{a2} {cur} за {next} день";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_NEXT_DAYS'] = "{then}{free}{a2} {cur} за {next}{p2} дней";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_ONE_DAY'] = "{then}{a3} {cur} за один день";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_MORE_DAYS'] = "{then}{a3} {cur} за {p3} дней";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_FOREACH'] = "{then}{a3} {cur} за каждый день";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_FOREACH_DAYS'] = "{then}{a3} {cur} за каждый день";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_INSTALLMENTS'] = "{then}{a3} {cur} за каждый день, в {srt} этапов";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_PAYMENT_INSTALLMENTS_DAYS'] = "{then}{a3} {cur} за каждые {p3} дней, в {srt} этапов";
+$JLMS_LANGUAGE['_JLMS_RECURRENT_MORE_THAN_ONE'] = "Более одного повторяющегося платежа";
+?>

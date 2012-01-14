@@ -1,0 +1,392 @@
+/*Joomla LMS. CSS Document */
+
+/*Agenda classes*/
+.week_names {
+	width:14%; 
+	text-align:center; 
+	height:15px;
+	background:#C5C0C0; 
+	border-left:1px solid #B3B3B3;
+	border-top:1px solid #B3B3B3;
+}
+td.month_header{
+	text-align:center;
+	font-weight:bold;
+	height:18px;
+	background:#B8B9B9;
+	color:#FFFFFF;
+	border-top:1px solid #929393;
+}
+.title_agenda{
+	background:#D4D5D5;
+	vertical-align:top;
+	
+}
+div.joomlalms_sys_message {
+	display: block;
+	background: #ffd;
+	padding: 10px;
+	margin-bottom: 7px;
+	margin-top: 4px;
+	color: #333;
+	border: 1px solid #ddb;
+	font-weight:bold;
+	text-align:center;
+}
+div.joomlalms_page_tip {
+	display: block;
+	background: #ffd;
+	padding: 10px;
+	margin-bottom: 7px;
+	margin-top: 4px;
+	color: #333;
+	border: 1px solid #eea;
+	font-weight:bold;
+	text-align:center;
+}
+div.joomlalms_user_message {
+	display: block;
+	background: #ffd;
+	padding: 10px;
+	margin-bottom: 7px;
+	margin-top: 4px;
+	color: #333;
+	border: 1px solid #efefef;
+	font-weight:bold;
+	text-align:center;
+}
+div.jlms_lpath_completion_message {
+	display: block;
+	background: #ffd;
+	padding: 10px;
+	margin-bottom: 7px;
+	margin-top: 4px;
+	color: #333;
+	border: 1px solid #ddb;
+	font-weight:bold;
+	text-align:center;
+}
+div.jlms_controls_footer {
+	display: block;
+	background:transparent url(../lms_images/bg_footer.png) repeat-x scroll 0%;
+	border-color:#DDDDDD rgb(221, 221, 221);
+	border:1px solid #CCCCCC;
+	vertical-align:middle;
+	color:#666666;
+	text-align:left;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+div.jlms_controls_footer table {
+	border-spacing: 2px;
+}
+div.jlms_controls_footer table td {
+	padding: 2px;
+}
+table.lms_pro_menu td {
+	padding-left: 2px;
+}
+span#JLMS_toolbar_tooltip {
+	color: #000000;
+}
+div.jlms_footer_link {
+	margin-top: 6px;
+	margin-right:10px;
+	float:right;
+	vertical-align:middle;
+}
+div.jlms_footer_link a {
+	text-decoration:underline;
+	font-size:12px;
+}
+div.jlms_footer_link a:hover {
+	text-decoration:underline;
+}
+/* Informational footer block */
+div.joomlalms_info_legend {
+	display: block;
+	background: #ffd;
+	padding: 6px;
+	margin-bottom: 4px;
+	margin-top: 8px;
+	color: #333;
+	border: 1px solid #ebebeb;
+	font-weight:normal;
+	text-align:left;
+}
+div.jlms_plugin {
+	display: block;
+	background: #ffd;
+	padding: 10px;
+	color: #333;
+	border: 1px solid #ddb;
+	font-weight:bold;
+	text-align:center;
+}
+
+div.topicmaindiv {
+	border:1px solid #EEEEEE;
+	margin-bottom:5px;
+	margin-top:5px;
+	padding:3px;
+}
+
+div.topicmaindiv2 {
+	border:1px solid #CCCCCC;
+	margin-bottom:5px;
+	margin-top:5px;
+	padding:3px;
+}
+td.controltd {
+	width: 16px;
+}
+div.tablefixer1 {
+	width: 5px;
+}
+
+div.tablefixer2 {
+	width: 21px;
+}
+
+div.tablefixer3 {
+	width: 312px;
+}
+
+div.tablefixer4 {
+	width: 64px;
+}
+
+div.tablefixer5 {
+	width: 120px;
+}
+
+div.tablefixer6 {
+	width: 160px;
+}
+
+/*lms quizz*/
+.jq_cont_drag_div{
+	border:1px solid #000000;
+	background-color: #dddddd;
+	cursor:default;
+	margin:10px;
+	position:relative;
+	text-align:center;
+	vertical-align:middle;
+	width:250px;
+	z-index: 1;
+	height:30px;
+	float:right;
+
+	overflow: hidden;
+}
+
+.jq_draggable_div{
+	border:1px solid #000000;
+	background-color: #ffffff;
+	cursor:default;
+	margin:10px;
+	/*position:relative;*/
+	text-align:center;
+	vertical-align:middle;
+	width:250px;
+	z-index: 1;
+	height:30px;
+	float:left;
+
+	overflow: hidden;
+}
+
+.jq_draggable_div:hover{
+	cursor: pointer;
+}
+
+.jq_draggable_div_pre{
+	border:1px solid #000000;
+	background-color: #ffffff;
+	cursor:default;
+	margin:10px;
+	/*position:relative;*/
+	text-align:center;
+	vertical-align:middle;
+	width:250px;
+	z-index: 1;
+	height:30px;
+	float:left;
+
+	overflow: hidden;
+}
+
+.d_cont{
+width:auto;text-align:center;position:relative;float:left;
+}
+
+#col_1, #col_2{
+	z-index: 0;
+}
+
+#quest_div_hs, #quest_div{
+	position: relative;
+}
+	/*progressbar*/
+	.progressbar_bg_middle {
+	background-image: url(../lms_images/quiz/bg_middle.gif);
+	background-repeat: repeat-x;
+	overflow:hidden;
+	}
+	.progressbar_bg_right {
+		background-image: url(../lms_images/quiz/bg_right.gif);
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	.progressbar_bg_left {
+		background-image: url(../lms_images/quiz/bg_left.gif);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding: 1px;
+		text-align: left;
+	}
+	.progressbar_fg {
+		width: 0%;
+		background-image: url(../lms_images/quiz/fg_middle.gif);
+		background-repeat: repeat-x;
+		overflow:hidden;
+	}
+	.progressbar_fg_right {
+		background-image: url(../lms_images/quiz/fg_right.gif);
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+	.progressbar_fg_left {
+		background-image: url(../lms_images/quiz/fg_left.gif);
+		background-repeat: no-repeat;
+		background-position: left;
+		height: 14px;
+	}
+	.progressbar_highlight{
+		background-image: url(../lms_images/quiz/highlight.png);
+		margin-left:-120px;
+		height: 14px;
+		width:120px;
+	}
+	.progressbar_highlight_ind{
+		background-image: url(../lms_images/quiz/ind-highlight.png);
+		margin-left:-120px;
+		height: 14px;
+		width:120px;
+	}
+	/*progressbar*/
+
+.jq_msg_alert_0{
+	background-color: #ff9999;
+	background-image: url(../lms_images/quiz/incorrect.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: solid 1px #990000;
+	width: 70%;
+	margin: 0px auto;
+	padding: 15px 0px;
+	color: #990000;
+	font: Verdana, Georgia, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.jq_msg_alert_1{
+	background-color: #e6f8dd;
+	background-image: url(../lms_images/quiz/correct.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: solid 1px #119911;
+	width: 70%;
+	margin: 0px auto;
+	padding: 15px 0px;
+	color: #119911;
+	font: Verdana, Georgia, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.jq_msg_alert_2{
+	background-color: #ffff99;
+	background-image: url(../lms_images/quiz/time-up.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: solid 1px #ff9900;
+	width: 70%;
+	margin: 0px auto;
+	padding: 15px 0px;
+	color: #ff9900;
+	font: Verdana, Georgia, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.jq_msg_alert_3{
+	background-color: #a9dcfe;
+	background-image: url(../lms_images/quiz/explanation.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: solid 1px #43b3fe;
+	width: 70%;
+	margin: 0px auto;
+	padding: 15px 0px;
+	color: #43b3fe;
+	font: Verdana, Georgia, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/** Home Page LMS MyCourses_Tree **/
+.treeview ul{ /*CSS for Simple Tree Menu*/
+margin: 0;
+padding: 0;
+}
+
+.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+background: white url(list.gif) no-repeat left center;
+list-style-type: none;
+padding-left: 22px;
+margin-bottom: 3px;
+}
+
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+background: white url(closed.gif) no-repeat left 1px;
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}
+/** Home Page LMS MyCourses_Tree **/
+
+/** overlib - Joomla 1.5 only **/
+.ol-foreground {
+	background-color: #CBCBCB;
+}
+.ol-background {
+	background-color: #3C79CD;
+}
+.ol-textfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.ol-captionfont {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.ol-captionfont a {
+	color: #0B55C4;
+	text-decoration: none;
+	font-size: 12px;
+}
+.ol-closefont {}
+/** end of Overlib section **/

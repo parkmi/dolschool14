@@ -1,0 +1,153 @@
+*{
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+.title_report{
+	background: #dbe5f1;
+	font-size: 26pt;
+	color: #0070c0;
+}
+
+.title_report td{
+	border: 1pt dotted #0070c0;
+}
+
+.after_header_info td{
+	border: 1pt dotted #0070c0;
+}
+
+.date_title{
+	color: #0070d6;
+	text-align: left;
+	font-weight: bold;
+}
+
+.date_value{
+	text-align: left;
+}
+
+.usergroup_title{
+	color: #0070d6;
+	text-align: left;
+	font-weight: bold;
+}
+
+.usergroup_value{
+	text-align: left;
+}
+
+.category_title{
+	color: #0070d6;
+	text-align: left;
+	font-weight: bold;
+}
+
+.category_value{
+	text-align: left;
+}
+
+.title{
+	font-size: 20pt;
+	color: #788901;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.title_after{
+
+}
+
+.header_title{
+	font-weight: bold;
+	background: #538ed5;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	height: 30pt;
+	padding: 0 5px;
+	white-space: nowrap;
+}
+
+.header_value{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.hit_title{
+	font-weight: bold;
+	background: #808080;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	height: 30pt;
+	padding: 0 5px;
+	white-space: nowrap;
+}
+
+.hit_value{
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.row_1{
+	background: #edf6f9;
+}
+
+.row_2{
+	background: #ffffff;
+}
+
+.row_total{
+	background: #c5d9f1;
+	font-weight: bold;
+}
+
+.row_total .cell_total{
+	text-align: left;
+}
+
+.row_total .cell_hit_total{
+	text-align: center;
+}
+
+.user_data, .hits_data{
+	border-collapse: collapse;
+}
+
+.user_data th, .hits_data th{
+	border-top: 0.5pt solid #ffffff;
+	border-right: 0.5pt solid #ffffff;
+}
+
+.user_data tr.row_total th.cell_total, 
+.hits_data tr.row_total th.cell_total,
+.hits_data tr.row_total th.cell_hit_total{
+	border: 0.5pt solid #808080;
+}
+
+.user_data td, .hits_data td{
+	border: 0.5pt solid #808080;
+}
+
+.hits_data td{
+	border: 0px;	
+}
+#reports_quiz td.header_value,
+#reports_quiz td.hit_value{
+	border: 0.5pt solid #808080;
+}
+
+#reports_quiz tr.row_1,
+#reports_quiz tr.row_2{
+	background: #ffffff;
+}
+#reports_quiz .row_1 td.header_value,
+#reports_quiz .row_1 td.hit_value{
+	background: #edf6f9;
+}
+#reports_quiz .row_2 td.header_value,
+#reports_quiz .row_2 td.hit_value{
+	background: #ffffff;
+}

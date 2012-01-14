@@ -1,0 +1,45 @@
+<?php
+// Course Topics Definitions
+
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_REORDERED'] = 'Topics reordered';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_DELETED'] = 'Topic deleted';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_ADDED'] = 'Item(s) added to topic';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_PUBLISHED'] = 'Topic Published';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_UNPUBLISHED'] = 'Topic Unpublished';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_EDITED'] = 'Topic Edited';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_CREATED'] = 'Topic created';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_SERIES_CREATED'] = 'Topic series created';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_SHOWN'] = 'Element(s) now will be shown';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_HIDDEN'] = 'Element(s) now will be hidden';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_MOVEUP'] = 'Move Up';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_MOVEDOWN'] = 'Move Down';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_MOVEUP'] = 'Move Up';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_MOVEDOWN'] = 'Move Down';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_DELETE'] = 'Delete Topic';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_LINK_ELEMENT'] = 'Link elements to the topic';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_EDIT'] = 'Edit topic';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_NAME_NOT_SET'] = 'Topic name not set';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_NAME'] = 'Topic name';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_REORDERED'] = 'Element ordering changed';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_DELETED'] = 'Element(s) deleted';
+$JLMS_LANGUAGE['_JLMS_TOPIC_PUBLISHED'] = 'Published';
+$JLMS_LANGUAGE['_JLMS_TOPIC_UNPUBLISHED'] = 'Unpublished';
+$JLMS_LANGUAGE['_JLMS_TOPIC_HIDDEN'] = 'Hidden';
+$JLMS_LANGUAGE['_JLMS_TOPIC_SHOWN'] = 'Shown';
+$JLMS_LANGUAGE['_JLMS_TOPIC_EXPIRED'] = 'Expired';
+$JLMS_LANGUAGE['_JLMS_TOPIC_PENDING'] = 'Pending';
+$JLMS_LANGUAGE['_JLMS_TOPIC_SCORM'] = 'SCORM';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_CONFIRM_DELETE'] = 'Are you sure to delete this topic?';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_STARTS_ON'] = 'Starts on';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_ENDS_ON'] = 'Ends on';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_NO_ELEMENTS_CHOSEN'] = 'Choose atleast one element from the list';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_10_WEEKLY'] = 'Create several weekly topics';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_DOCUMENTS'] = 'Documents';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_LINKS'] = 'Links';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_QUIZZES'] = 'Quizzes';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_LPATHS'] = 'Learning Paths';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_NAME'] = 'Element name';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_CONTROLS'] = 'Controls';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_DETAILS'] = 'Details';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_DESRIPTION'] = 'Description';
+?>

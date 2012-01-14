@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system">
+	<name>System - JoomlaLMS</name>
+	<author>ElearningForce inc.</author>
+	<creationDate>June 2009</creationDate>
+	<copyright>(C) 2006 - 2009 JoomlaLMS</copyright>
+	<license>http://www.joomlalms.com</license>
+	<authorEmail>lms@elearningforce.biz</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<version>1.0.7</version>
+	<description>JoomlaLMS and SMF forum bridge</description>
+	<files>
+		<filename plugin="jlms">jlms.php</filename>
+	</files>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">
+		<field
+			name="synch_all_users"
+			type="radio"
+			default="1"
+			label="Users Synchronization"
+			description="Configure how users will be synchronizaed between Joomla and SMF forum">
+			<option value="0">only students</option>
+			<option value="1">all users</option>
+		</field>	
+		</fieldset>	
+	</fields>	
+	</config>
+</extension>

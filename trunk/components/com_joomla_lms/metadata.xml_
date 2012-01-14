@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<menu>
+		<options var="task">
+			<default name="Default LMS homepage" msg="Quick overview of all LMS activities. List of courses by default if not enrolled into any course." />
+			<option value="courses" name="Courses List" msg="List of JoomlaLMS courses" />
+		</options>
+	</menu>
+	<state switch="task" default="courses">
+		<courses>
+			<name>JoomlaLMS</name>
+			<description>Learning Management System for Joomla!</description>
+			<params>
+				<param name="blog" type="radio" default="0" label="Show Courses List as 'Blog'" description="Show JoomlaLMS courses list using multi-columns blog layout">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</param>
+				<param type="spacer" />
+				<param type="text" name="leading_courses" size="75" default="" label="Leading courses" description="IDs of courses (comma separated) to display as leading elements (full width at the top) on the blog page" />
+				<param name="num_columns" type="text" size="3" default="2" label="Columns" description="Set how many columns to use per row for 'Blog' layout" />
+			</params>
+		</courses>
+	</state>
+</metadata>

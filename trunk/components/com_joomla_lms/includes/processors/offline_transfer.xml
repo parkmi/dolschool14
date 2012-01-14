@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<jlmsplugin type="paymentprocessor" version="1.0.0">
+	<name>Offline Bank transfer</name>
+	<license>ElearningForce Inc.</license>
+	<author>http://www.joomlalms.com</author>
+	<authorEmail>info@elearningforce.biz</authorEmail>
+	<authorUrl>http://www.joomlalms.com</authorUrl>
+	<creationDate>2007-09-10</creationDate>
+	<copyright>ElearningForce Inc.</copyright>
+	<version>1.0.4</version>
+	<description><![CDATA[Offline Bank transfer processor for JoomlaLMS component.	<br />
+	<p>Use this processor if your users pay fees by bank account.</p>
+	<p>You can mark their payment as 'completed' on the 'payments list' page after the bank transfer has been received.</p>
+<p>In  the 'description' field you should enter a small description of this type of payment. </p>
+<p>In the 'Payment page' field you should enter text, which will be shown once a user decides to make the payment using this processor. 
+You can enter your bank payment account info and more detailed instructions here.
+Use constants {ORDER_ID}, {TOTAL} to place information about ORDER ID and fee amount; {invoice} - to place link to the PDF invoice.
+</p> ]]></description>
+	<params>
+		<param name="description" type="textarea" default="Use this processor if you pay fees by bank account." label="Description" rows="10" cols="60" description="A small description(instructions) for user."/>
+		<param name="page_info" type="textarea" default="Your OrderID: {ORDER_ID}, Total amount: {TOTAL}. Invoice: {invoice}." label="Payment page" rows="20" cols="60" description="Enter your account details for the payment  and more detailed instructions here. Use constants {ORDER_ID}, {TOTAL} to place information about ORDER ID and fee amount."/>
+		<param name="subscr_status" type="radio" default="0" label="PDF invoice" description="PDF invoice">
+			<option value="0">Never</option>
+			<option value="1">Pending</option>
+		</param>	
+	</params>
+	
+</jlmsplugin>

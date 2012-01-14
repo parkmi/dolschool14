@@ -1,0 +1,80 @@
+<patTemplate:tmpl name="page">
+<table>
+	<tr class="title_report">
+		<td>
+			<patTemplate:tmpl name="title_report">
+				{TITLE}
+			</patTemplate:tmpl>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<patTemplate:tmpl name="date_report">
+			<table class="after_header_info">
+				<tr>
+					<td class="date_title">
+						Date:
+					</td>
+					<td class="date_value">
+						{DATE}
+					</td>
+				</tr>
+				<patTemplate:tmpl name="groups">
+					<tr>
+						<td class="usergroup_title">
+							{NAME_GROUP}:
+						</td>
+						<td class="usergroup_value">
+							{GROUP}
+						</td>
+					</tr>
+				</patTemplate:tmpl>
+				<patTemplate:tmpl name="users">
+					<tr>
+						<td class="usergroup_title">
+							{NAME_USER}:
+						</td>
+						<td class="usergroup_value">
+							{USER}
+						</td>
+					</tr>
+				</patTemplate:tmpl>
+				<patTemplate:tmpl name="categories">
+					<tr>
+						<td class="category_title">
+							{NAME_CATEGORY}:
+						</td>
+						<td class="category_value">
+							{CATEGORY}
+						</td>
+					</tr>
+				</patTemplate:tmpl>
+			</table>
+			<br />
+		</patTemplate:tmpl>
+		</td>
+	</tr>
+	<patTemplate:tmpl name="course_info">
+		 <tr>
+		 	<td class="title">
+		 		{COURSE_NAME}
+		 	</td>
+		 </tr>
+		 <tr>
+		 	<td class="title_after">
+		 		Accessed Times: {HITS}
+		 	</td>
+		 </tr>
+		 <tr>
+		 	<td>
+		 		{GRADE}
+		 	</td>
+		 </tr>
+		 <tr>
+		 	<td>
+		 		&nbsp;
+		 	</td>
+		 </tr>
+	</patTemplate:tmpl>
+</table>
+</patTemplate:tmpl>

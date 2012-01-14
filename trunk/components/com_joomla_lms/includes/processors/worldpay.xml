@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<jlmsplugin type="paymentprocessor" version="1.0.0">
+	<name>WorldPay Select Junior</name>
+	<license>JoomlaLMS</license>
+	<author>www.joomlalms.com</author>
+	<authorEmail>support@joomlalms.com</authorEmail>
+	<authorUrl>http://www.joomlalms.com</authorUrl>
+	<creationDate>July 2010</creationDate>
+	<copyright>2006 - 2010 JoomlaLMS eLearning Software</copyright>
+	<version>1.0.7</version>
+	<description>WorldPay Select Junior payment processor for JoomlaLMS</description>
+	<params>
+		<param name="inst_id" type="text" size="30" default="" label="Installation ID" description="WorldPay installation ID." />
+		<param name="test_mode" type="text" size="30" default="" label="Test mode value" description="Use 100 for test mode or 0 for 'Live'." />
+		<param name="callback_pw" type="text" size="30" default="" label="Callback password" description="Callback password specified in WorldPay CMS." />
+ 		<param name="@spacer" type="spacer" default="" label="Callback notice !!!" description="Please set the callback URL in the WorldPay CMS as: http://www.yoursite.com/index.php?option=com_joomla_lms&amp;task=callback&amp;proc='your worldpay processor id'"	/>
+		<param name="description" type="textarea" default="" label="Description" description="" />
+		<param name="subscr_status" type="radio" default="0" label="PDF invoice" description="PDF invoice">
+			<option value="0">Never</option>
+			<option value="1">Pending</option>
+			<option value="2">Completed</option>
+		</param>
+	</params>
+</jlmsplugin>

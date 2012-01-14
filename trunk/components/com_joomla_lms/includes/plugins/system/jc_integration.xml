@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jlmsplugin version="1.0.0" group="system" type="plugin">
+	<name>JComments integration</name>
+	<author>JoomlaLMS Team</author>
+	<creationDate>July 2010</creationDate>
+	<copyright>JoomlaLMS</copyright>
+	<license>http://www.joomlalms.com</license>
+	<authorEmail>info@www.joomlalms.com</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<version>1.0.7</version>
+	<description>This plugin integrates jComments commenting system into JoomlaLMS and allows comment on courses and course topics.</description>
+	<short_description>Integrates jComments commenting system into JoomlaLMS</short_description>
+	<files>
+		<filename plugin="jc_integration">jc_integration.php</filename>
+	</files>
+	<params>
+		<param name="course_comments" type="radio" default="1" label="Comment courses?" description="Enable or disable courses commenting">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="cc_view_type" type="list" default="2" label="Comments position" description="Select the way where comments listing will be shown on the course page">
+			<option value="1">Under course description</option>
+			<option value="2">Under topics listing</option>
+			<option value="0">On the separate page</option>
+		</param>
+		<param name="search_course_comments" type="radio" default="1" label="Show 'search' box?" description="Enable or disable box to search through course comments">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="search_course_through" type="list" default="0" label="Search through" description="Choose how search box will work">
+			<option value="0">All the comments related to the course</option>
+			<option value="1">Course homepage comments only</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="topic_comments" type="radio" default="1" label="Comment topics?" description="Enable or disable topics commenting">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="search_topic_comments" type="radio" default="1" label="Show 'search' box?" description="Enable or disable box to search through specific topic comments">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+	</params>
+</jlmsplugin>

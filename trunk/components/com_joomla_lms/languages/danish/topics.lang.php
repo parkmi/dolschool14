@@ -1,0 +1,45 @@
+<?php
+// Course Topics Definitions
+
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_REORDERED'] = 'Temaer sorteret';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_DELETED'] = 'Tema slettet';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_ADDED'] = 'Emne(r) tilføjet til Tema';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_PUBLISHED'] = 'Tema Published';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_UNPUBLISHED'] = 'Tema Unpublished';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_EDITED'] = 'Tema Editeret';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_CREATED'] = 'Tema oprettet';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_SERIES_CREATED'] = 'Tema serie oprettet';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_SHOWN'] = 'Element(er) vil nu blive vist';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_HIDDEN'] = 'Element(er) vil nu blive skjult(e)';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_MOVEUP'] = 'Flyt Op';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_MOVEDOWN'] = 'Flyt Ned';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_MOVEUP'] = 'Flyt Op';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_MOVEDOWN'] = 'Flyt Ned';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_DELETE'] = 'Slet Tema';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_LINK_ELEMENT'] = 'Link elementer til Tema';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_EDIT'] = 'Editer tema';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_NAME_NOT_SET'] = 'Tema navn er ikke angivet';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_NAME'] = 'Tema navn';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_REORDERED'] = 'Elementernes rækkefølge er ændret';
+$JLMS_LANGUAGE['_JLMS_TOPIC_I_DELETED'] = 'Element(er) er slettet';
+$JLMS_LANGUAGE['_JLMS_TOPIC_PUBLISHED'] = 'Published';
+$JLMS_LANGUAGE['_JLMS_TOPIC_UNPUBLISHED'] = 'Unpublished';
+$JLMS_LANGUAGE['_JLMS_TOPIC_HIDDEN'] = 'Skjult';
+$JLMS_LANGUAGE['_JLMS_TOPIC_SHOWN'] = 'Vist';
+$JLMS_LANGUAGE['_JLMS_TOPIC_EXPIRED'] = 'Udløbet';
+$JLMS_LANGUAGE['_JLMS_TOPIC_PENDING'] = 'Afventes';
+$JLMS_LANGUAGE['_JLMS_TOPIC_SCORM'] = 'SCORM';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_CONFIRM_DELETE'] = 'Vil du slette dette Tema?';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_STARTS_ON'] = 'Starter på';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_ENDS_ON'] = 'Slutter på';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_NO_ELEMENTS_CHOSEN'] = 'Vælg mindst ét element på listen';
+$JLMS_LANGUAGE['_JLMS_TOPIC_T_10_WEEKLY'] = 'Opret adskillige ugentlige Temaer';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_DOCUMENTS'] = 'Dokumenter';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_LINKS'] = 'Links';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_QUIZZES'] = 'Quizzer';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_LPATHS'] = 'Lærestier';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_NAME'] = 'Elementets navn';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_CONTROLS'] = 'Kontroller';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_DETAILS'] = 'Detaljer';
+$JLMS_LANGUAGE['_JLMS_TOPIC_E_DESRIPTION'] = 'Beskrivelse';
+?>

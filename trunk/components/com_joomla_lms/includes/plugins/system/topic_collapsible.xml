@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jlmsplugin version="1.0.0" group="system" type="plugin">
+	<name>Topic Collapsible</name>
+	<author>JoomlaLMS Team</author>
+	<creationDate>December 2010</creationDate>
+	<copyright>JoomlaLMS</copyright>
+	<license>http://www.joomlalms.com</license>
+	<authorEmail>info@www.joomlalms.com</authorEmail>
+	<authorUrl>www.joomlalms.com</authorUrl>
+	<version>1.0.7</version>
+	<description></description>
+	<short_description></short_description>
+	<files>
+		<filename plugin="topic_collapsible">topic_collapsible.php</filename>
+	</files>
+	<params>
+		
+	</params>
+</jlmsplugin>

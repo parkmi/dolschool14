@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<jlmsplugin type="paymentprocessor" version="1.0.0">
+	<name>PayPal Standard</name>
+	<license>JoomlaLMS</license>
+	<author>www.joomlalms.com</author>
+	<authorEmail>support@joomlalms.com</authorEmail>
+	<authorUrl>http://www.joomlalms.com</authorUrl>
+	<creationDate>April 2011</creationDate>
+	<copyright>2006 - 2011 JoomlaLMS eLearning Software</copyright>
+	<version>1.0.7 sp1</version>
+	<description>PayPal Standard payment processor for JoomlaLMS component.</description>
+	<params>
+		<param name="server_url" type="radio" default="https://www.sandbox.paypal.com/cgi-bin/webscr" label="Server URL" description="The URL of the PayPal payment server">
+			<option value="https://www.paypal.com/cgi-bin/webscr">Live PayPal</option>
+			<option value="https://www.sandbox.paypal.com/cgi-bin/webscr">SandBox PayPal (test mode)</option>
+		</param>
+		<param name="business_email" type="text" size="40" default="paypal" label="Business email" description="Account email" />
+
+		<param name="@spacer" type="spacer" default="" label="Subscription payments" description="" /> 
+		<param name="item_name" type="text" size="40" default="[sub]" label="Item name" description="Item name of the payment, use [sub] for the subscription string." />
+		<param name="subscr_status" type="radio" default="0" label="PDF invoice" description="PDF invoice">
+			<option value="0">Never</option>
+			<option value="1">Pending</option>
+			<option value="2">Completed</option>
+		</param>
+	</params>
+</jlmsplugin>

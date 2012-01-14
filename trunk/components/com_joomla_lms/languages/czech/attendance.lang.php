@@ -1,0 +1,28 @@
+<?php
+/**
+* /languages/english/attendance.lang.php
+* Joomla LMS Component
+* * * ElearningForce DK
+**/
+
+// no direct access
+defined( '_VALID_MOS' ) or die( 'Restricted access' );
+
+/* 1.0.4 */
+$JLMS_LANGUAGE['_JLMS_ATT_WITH_SELECTED'] = 'Mark the selected';
+
+$JLMS_LANGUAGE['_JLMS_ATT_TITLE'] = 'Výkaz docházky';
+$JLMS_LANGUAGE['_JLMS_ATT_TITLE_STU'] = 'Moje docházka';
+$JLMS_LANGUAGE['_JLMS_ATT_TITLE_EXPORT'] = 'Exportovat docházku do Excelul';
+$JLMS_LANGUAGE['_JLMS_ATT_TBL_HEAD_STU'] = 'Student';
+$JLMS_LANGUAGE['_JLMS_ATT_TBL_HEAD_GROUP'] = 'Skupina';
+$JLMS_LANGUAGE['_JLMS_ATT_FILTER_ALL_GROUPS'] = 'Všechny skupiny';
+$JLMS_LANGUAGE['_JLMS_ATT_VIEW_STU_ATTENDANCE'] = 'Docházka studenta';
+$JLMS_LANGUAGE['_JLMS_ATT_STATUS_ATTENDED'] = 'Pøítomen';
+$JLMS_LANGUAGE['_JLMS_ATT_STATUS_NOTATTENDED'] = 'Nepøítomen';
+$JLMS_LANGUAGE['_JLMS_ATT_MARK_ATTENDED'] = "Oznaèit jako 'Pøítomen'";
+$JLMS_LANGUAGE['_JLMS_ATT_MARK_NOTATTENDED'] = "Oznaèit jako 'Nepøítomen'";
+
+$JLMS_LANGUAGE['_JLMS_ATT_SELECT_USER'] = "Vybrat uživatele:";
+$JLMS_LANGUAGE['_JLMS_ATT_FILTER_ALL_USERS'] = "Všichni studenti";
+?>
