@@ -36,7 +36,7 @@ dl dd {
 }
 
 fieldset { border:none;margin:0;padding:0;}
-input, textarea, button { border: none;background:#000;color:#fff;}
+input, textarea, button { border: 1px solid #ccc;background:#fff;color:#555;}
 button {  background: url("../images/but.gif") repeat-x scroll left top transparent;color:#fff;border:none; }
 .cont input{background:#fff;color:#555; border: 1px solid #ccc}
 
