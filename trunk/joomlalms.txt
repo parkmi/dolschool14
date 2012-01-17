@@ -1,23 +1,23 @@
 JoomlaLMS Trial (Standard Edition)
 License users: 30
 BrandingFree: No
-Expires on: 2012-01-17
+Expires on: 2012-02-13
 
 
 ------ LICENSE FILE DATA -------
-62174472Cc2mp9swqQRo0UQdaezd1mYK
-VcVOwYy1WgCNR33+2EHp7Z23prin7d5c
-Q9Zmd3CL+tc4+XcVvsE9RYfDQbZvwc1e
-JzfZC73oWEtQaJQrqrJgYgOe9E9uZJ4f
-t+nSd2texhivv0Yr5H9/mo9HHQi2Opzy
-qcdJiNkCSi76oFBbcrxJTMwkwkwXUPfG
-5DaUHNu8drQyWgE1VhowUglrJcA9KknC
-OIdKmKggdjE7hMIuCsNSTdLl8hYsKTRl
-YRRKtVHXsZeRQmm6+AqZJEFw+bXtdQBA
-FDMqP0rrmUZW1BqunDqdbaYSXvP6gChm
-NueUTWG1VWY9a1Bw6OG7MrhtK+3U3DYm
-/rBWsby94J5BwQewv5niSancTm5+WVZQ
-XDLT/cvm2emRc0JwgoPiKEwxgZ7PyFMI
-+CDd5U5qazPp3gQK6XZFelXA+QvYx8yV
-FC9=
+T39U760X8dlyNgCBDRpaseKOJyuWMUyC
+NCQuf2fbNnrwZNAT0bVOF0pAJ29kGV5z
+C31J1PNXYPo5xZ3qDxyj03NP2Ji4+c7j
+3C3/Ivo9m1tGkA+oOpeusUxPpDTx3Z19
+eYiE+QsuSnIXAtWxYtfDewSkWbtR/QQa
+54L+LHMS1SiywdfCmD6ekkRnjIfUGyHE
+qouzSE7i3O7y+mOnVl9txBCu2UxxgWOC
+LIl+DCEbt5PHksGZaRukhx4eTodtnDjZ
+duF7UpPQ90dOlmmBnoBgbKhT02dFwE3w
+5u8z/fsqKxUcitA+6s4VT2DihdpObbkb
+0mGSpJIZPd55fB2AW4keuis2TzAEQub8
+eo5sq5rLg4h2lcXkSkwXzqKmP0F0J3ki
+JHoSCjT56PYnzNJQX5gZXWxIiUQxazXc
+bEY7DA3nAtdaj7yliLgEgqsDOC0/ygfO
+zEh=
 --------------------------------
