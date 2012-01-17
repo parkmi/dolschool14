@@ -50,7 +50,7 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $log_path = '/home/sites/d20071091-2/www/logs';
-	public $tmp_path = '/home/sites/d20071091-3/www/tmp';
+	public $tmp_path = '/home/sites/d20071091-2/www/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
