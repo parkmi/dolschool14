@@ -11,9 +11,9 @@ class JConfig {
 	public $debug_lang = '0';
 	public $dbtype = 'mysql';
 	public $host = 'localhost';
-	public $user = 'b20071091_5';
-	public $password = 'KjwbGHab';
-	public $db = '20071091_5';
+	public $user = 'b20071091_2';
+	public $password = 'JKdgHJvn';
+	public $db = '20071091_2';
 	public $dbprefix = 'j17_';
 	public $live_site = '';
 	public $secret = '4dU6K4GCqlp8dIth';
@@ -22,8 +22,8 @@ class JConfig {
 	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help16:{keyref}';
 	public $ftp_host = '127.0.0.1';
 	public $ftp_port = '21';
-	public $ftp_user = 'd20071091_5';
-	public $ftp_pass = 'JrhGbanzGHbw';
+	public $ftp_user = 'd20071091_2';
+	public $ftp_pass = 'KJcGFts5ERbc';
 	public $ftp_root = '/www';
 	public $ftp_enable = '1';
 	public $offset = 'Europe/Moscow';
@@ -49,8 +49,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/home/sites/d20071091-5/www/logs';
-	public $tmp_path = '/home/sites/d20071091-5/www/tmp';
+	public $log_path = '/home/sites/d20071091-2/www/logs';
+	public $tmp_path = '/home/sites/d20071091-2/www/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $MetaRights = '';
