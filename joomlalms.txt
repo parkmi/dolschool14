@@ -1,23 +1,31 @@
-JoomlaLMS Trial (Standard Edition)
-License users: 30
+JoomlaLMS Standard Edition
+Licensed domain: dolschool14.ru
+License users: 100
 BrandingFree: No
-Expires on: 2012-02-13
+Expires on: never (perpetual license)
 
 
 ------ LICENSE FILE DATA -------
-T39U760X8dlyNgCBDRpaseKOJyuWMUyC
-NCQuf2fbNnrwZNAT0bVOF0pAJ29kGV5z
-C31J1PNXYPo5xZ3qDxyj03NP2Ji4+c7j
-3C3/Ivo9m1tGkA+oOpeusUxPpDTx3Z19
-eYiE+QsuSnIXAtWxYtfDewSkWbtR/QQa
-54L+LHMS1SiywdfCmD6ekkRnjIfUGyHE
-qouzSE7i3O7y+mOnVl9txBCu2UxxgWOC
-LIl+DCEbt5PHksGZaRukhx4eTodtnDjZ
-duF7UpPQ90dOlmmBnoBgbKhT02dFwE3w
-5u8z/fsqKxUcitA+6s4VT2DihdpObbkb
-0mGSpJIZPd55fB2AW4keuis2TzAEQub8
-eo5sq5rLg4h2lcXkSkwXzqKmP0F0J3ki
-JHoSCjT56PYnzNJQX5gZXWxIiUQxazXc
-bEY7DA3nAtdaj7yliLgEgqsDOC0/ygfO
-zEh=
+9U410603cPFnLrEEGDs86mFw0Ua5Y7Er
+bXkIKPa5OZKpXVCRopXCV8ahU+z+izH/
+e1mkL3L5ip+MPcyieLWvWGEOCkl8stku
+TOZOctPm1BBOX87N8L/vTKx/XGdrNRAU
+kpJIy7LQj6A0Ghv4aGGmXmPSvM4UTtz+
+qYyVzNkl1YXcb2cPFLIij4Hl1UcjwedC
+mKX46XE8B21ieZyZxl5kvnl5ugQEYE8h
+19Z80Hklt2HDin7rgrjspNLyT7b+Hg/M
+jee5PGEUz+bCzr0Q6TV3KzdGZs7OyoZ8
+pVtcngJ5fO0ygvGLq7xdIDJxrjENtRcA
+kmkOGr3CAPqdS82JcR2qAbzb+FGOaPhp
+rtTo1K376jYXH3SFlCWHLnpFME00o3HA
+LimAlBkhvtMRXtIr28/44FHIn8dGsN+j
+9qH3aqyXkHc0M+sdfRtkiw3KbARjox0h
+557ZIcA/ZrCMGiRm1MjxJHlfXC9ST6kj
+x62YaCZWefCtagKBBprkWIzZsjrsCNRQ
+Vbobi/tqLp5M6dsZccDErBZPoJSOjsL7
+0vHtqfv7gCx3qI+6QCvSIW/4VATOjoaR
+HEBdl/Z8JvinKm57HUEWJPMJHbAdh1x7
+GzsxYWYVhFF56v+ITV7yLiFWKyD/mvQh
+8WbATm+ZIW9eFdhuUy3X9Up+Gh00G/VS
+TTbZYP+Hol3CO0Xnmv5XQ2h=
 --------------------------------

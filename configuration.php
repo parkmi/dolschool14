@@ -3,7 +3,7 @@ class JConfig {
 	public $offline = '0';
 	public $offline_message = 'Сайт закрыт на техническое обслуживание.<br /> Пожалуйста, зайдите позже.';
 	public $display_offline_message = '1';
-	public $sitename = 'Дистанционное обучение';
+	public $sitename = 'АОУ СОШ №14 "Школа социального успеха"';
 	public $editor = 'tinymce';
 	public $list_limit = '20';
 	public $access = '1';
@@ -45,7 +45,7 @@ class JConfig {
 	public $MetaKeys = '';
 	public $MetaAuthor = '1';
 	public $sef = '1';
-	public $sef_rewrite = '0';
+	public $sef_rewrite = '1';
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
